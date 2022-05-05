@@ -1,0 +1,23 @@
+.footerBlock{
+    background-color: #fad7ff;
+}
+
+.footerBlockContainer{
+    flex-direction: column;
+}
+
+.friends{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #9f9d9d;
+    flex-direction: row;
+}

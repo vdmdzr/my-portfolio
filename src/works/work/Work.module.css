@@ -1,0 +1,29 @@
+.work {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+
+.imageWork {
+    background-color: #f9d4ff;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+
+}
+
+.title {
+    margin: 20px;
+}
+
+.discription {
+    margin: 20px;
+}

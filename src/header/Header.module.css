@@ -1,0 +1,8 @@
+.header{
+    height: 80px;
+    background-color: papayawhip;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
