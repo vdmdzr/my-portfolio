@@ -1,0 +1,38 @@
+@import './../common/styles/scss/variables';
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor1;
+
+  .greetings {
+    width: 300px;
+    color: $textColor;
+    font-family: $TitleFontFamilyn;
+
+    .hi {
+      letter-spacing: 2px;
+      font-size: 22px;
+    }
+
+    h1 {
+      letter-spacing: 1px;
+    }
+
+    .shortDescription {
+      letter-spacing: 2px;
+      font-size: 22px;
+    }
+  }
+
+  .photo {
+    width: 400px;
+    height: 500px;
+    background-color: $textColor;
+  }
+}
+
+
+
+
+
+

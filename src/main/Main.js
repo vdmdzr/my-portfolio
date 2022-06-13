@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 
 const Main = () => {
@@ -7,9 +7,9 @@ const Main = () => {
       <div className={style.mainBlock}>
           <div className={styleContainer.container}>
               <div className={style.greetings}>
-                  <span>Hi there!</span>
-                  <h1>Vadim Deruzhynski</h1>
-                  <p>Front-end developer</p>
+                  <span className={style.hi}>Hi there!</span>
+                  <h1>I`m Vadim Deruzhynski</h1>
+                  <p className={style.shortDescription}>Front-end developer</p>
               </div>
               <div className={style.photo}>
 

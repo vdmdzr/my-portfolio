@@ -1,0 +1,35 @@
+@import '../common/styles/scss/variables.scss';
+
+.skillsBlock {
+  min-height: 50vh;
+  padding-bottom: 50px;
+  background-color: $bgColor2;
+
+  .skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-family: $TitleFontFamilyn;
+    }
+
+    @media screen and (max-width: 1000px) {
+      .skills {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

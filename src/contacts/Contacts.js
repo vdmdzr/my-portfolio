@@ -1,22 +1,22 @@
 import React from 'react';
-import style from './Contacts.module.css'
+import {Title} from "../common/components/title/Title";
+import style from './Contacts.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 
 const Contacts = () => {
     return (
-      <div className={style.contactsBlock}>
-          <div className={`${styleContainer.container} ${style.contactsBlockContainer}`}>
-              <h3 className={style.title}>Contacts</h3>
-              <form className={style.formContacts}>
-                  <input placeholder='name' type="text" name='name'/>
-                  <input placeholder='email' type="text" name='@mail'/>
-                  <textarea name='text' rows="3"></textarea>
-              </form>
-              <button className={style.send}>Send</button>
-
-
-          </div>
-      </div>
+        <div className={style.contactsBlock}>
+            <div className={`${styleContainer.container} ${style.contactsBlockContainer}`}>
+                <Title text={"contacts"}/>
+                <form className={style.formContacts}>
+                    <input id={'inputName'} placeholder='your name' type="text" name='name'/>
+                    <input id={'inputNumber'} placeholder='your number' type="text" name='number'/>
+                    <input id={'inputemail'} placeholder='your email' type="text" name='@mail'/>
+                    <textarea name='text' rows="5"></textarea>
+                </form>
+                <button type={"send"} className={style.sendBtn}>Send</button>
+            </div>
+        </div>
     );
 };
 

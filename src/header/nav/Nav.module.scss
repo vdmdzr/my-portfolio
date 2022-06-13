@@ -1,0 +1,28 @@
+@import '../../common/styles/scss/variables';
+
+
+.nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding-left: 150px;
+  a{
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;;
+    letter-spacing: 2px;
+    color: $textColor;
+
+  }
+  @media screen and (max-width: 520px) {
+    padding-left: 10px
+  }
+}
+
+
+

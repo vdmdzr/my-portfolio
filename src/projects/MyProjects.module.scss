@@ -1,0 +1,17 @@
+@import '../common/styles/scss/variables';
+
+.myWorkBlock {
+  min-height: 50vh;
+  padding-bottom: 50px;
+  background-color: $bgColor1;
+
+  .myWorks {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1500px) {
+      justify-content: center;
+    }
+  }
+}

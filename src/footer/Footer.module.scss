@@ -1,9 +1,19 @@
+@import "../common/styles/scss/variables";
+
 .footerBlock{
-    background-color: #fad7ff;
+  background-color: $bgColor2;
+
 }
 
 .footerBlockContainer{
     flex-direction: column;
+    font-family: $TitleFontFamilyn;
+    color: $textColor;
+}
+
+.title{
+  margin: 50px 0 50px 0;
+  font-weight: 600;
 }
 
 .friends{
@@ -20,4 +30,9 @@
     height: 60px;
     background-color: #9f9d9d;
     flex-direction: row;
+}
+
+.allReserved{
+  font-weight: 400;
+  margin: 50px 0 50px 0;
 }
